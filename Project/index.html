@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Keka Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="keka k img.webp">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="keka.jpg" alt="Keka Logo" class="logo1">
+            <div class="burger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#" onclick="toggleDropdown(event)">Product <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Payroll Software</a></li>
+                            <li><a href="#">HR & Onboarding</a></li>
+                            <li><a href="#">Modern HR</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" onclick="toggleDropdown(event)">Customer <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Customer Experience</a></li>
+                            <li><a href="#">Customer Stories</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" onclick="toggleDropdown(event)">About <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" onclick="toggleDropdown(event)">Resource <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">HR Content</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+            <div class="buttons">
+                <a href="https://eidikosystems.keka.com/#/home/dashboard" class="login-btn">Login</a>
+                <a href="#" class="trial-btn">Get Free Trial</a>
+            </div>
+        </div>
+    </header>
+    
+    
+
+    <section class="feature-container" style="margin-bottom: 10px !important;">
+        <div class="content-container home-feature-container">
+            <h1>Everything you need to build a great company</h1>
+            <p>Keka is your people enabler. From automation of people processes to creating an engaged and driven culture, 
+                Keka is all you need to build a good to great company.
+            </p>
+            <div class="d-none d-md-block">
+                <a href="https://www.keka.com/signup" target="_blank" class="desktop-button">Get free trial</a>
+                <img  src="keka1.png" width="100%" height="auto" class="new-home-para" alt="Keka the HR and Payroll Software. Awarded the Best HR and Payroll Software by World HRD Congress. Start Your Free Trial">
+            </div>
+        </div>
+    
+        <div class="image-container">
+            <img fetchpriority="high" src="https://d2w2i7rp1a0wob.cloudfront.net/static/images/home/hero-home.svg" width="550" height="428" alt="Keka the HR and Payroll Software. Awarded the Best HR and Payroll Software by World HRD Congress. Start Your Free Trial">
+            <a href="https://www.keka.com/signup" target="_blank" class="mobile-button">Get free trial</a>
+            
+        </div>
+    </section>
+
+    <section class="gap">
+        <div class="clients">
+            <h2 class="client-title">Trusted By 10,000+ Organization Globally</h2>
+            <div class = comapnies>
+                <img class="photos" src="keka2.png" alt="company clients">
+    
+            </div>
+        </div>
+    
+        <div class="award">
+            <h2 class="awardline" >Awesome gets awarded</h2>
+            <div class="awardpic">
+              <img class="awardphoto" src="award.png" alt="awarded by this shows">
+            </div>
+        </div>
+    </section>
+    <div class="worldchange">
+        <h2 class="title">Smart HR to outsmart the changing world</h2>
+        <div class="para">
+            <pre class="prepara">
+            The world has changed, and it's going to keep changing.Keka HR helps your teams to adapt,
+            evolve, and scale by working more effectively.Spend less time on mundane tasks and 
+            focus more on strategy. Turn data into smarter decisions and create experiences your employees will love.
+            </pre>
+        </div>
+    </div>
+
+    <section class="container-box">
+        <div class="maincontainer">
+            <div class="leftcontainer">
+               <div class="sidebar">
+                <h3 class="containerheading">People data & Analytics</h3>
+                <p class="details">
+                    Connect all your people together in one place <br> and gain powerful insights
+                </p>
+               </div>
+
+               <div class="sidebar">
+                <h3 class="containerheading">Payroll & Expense tracking</h3>
+                <p class="details">
+                    Automate and Pay employees in 6 steps~ <br>like clockwork. Stay 100% Compliant.                </p>
+               </div>
+
+               <div class="sidebar">
+                <h3 class="containerheading">Performance and Culture</h3>
+                <p class="details">
+                    Employ SMART Goals and OKRs to measure &  <br>maximize talent performance.                </p>
+               </div>
+
+               <div class="sidebar">
+                <h3 class="containerheading">Hiring and Onboarding</h3>
+                <p class="details">
+                    Source, hire and onboard top talent. <br> Personalized dashboards for insights.
+                </p>
+               </div>
+
+               <div class="sidebar">
+                <h3 class="containerheading">Timesheets & Projects (PSA)
+                </h3>
+                <p class="details">
+                    Manage time, resource and project profitability efficiently
+                </p>
+               </div>
+            </div>
+            <div class="rightcontainer">
+                <img class="rightphoto" src="keka4.png" alt="analytics AND traking">
+            </div>
+        </div>
+    </section>
+
+    <div class="section7">
+        <h2 class="cardheading">Everything you need to create a high performance culture</h2>
+        <div class="cards">
+            <div class="sections">
+                <i class="fa-solid fa-dollar-sign"></i> 
+                <h3 class="logo">Payroll</h3>
+                <p class="logopara">We redefined Payroll industry back in 2016. 6 simple steps.
+                     No manual tasks~ All on cloud
+                </p>
+                <p class="learnmore" href="#">Learn more <i class="fa-solid fa-arrow-right"></i></p>
+
+            </div>
+
+            <div class="sections">
+                <i class="fa-solid fa-plus"></i>
+                <h3 class="logo">Modern HR</h3>
+                <p class="logopara">All your people information in one place to create a connected digital workplace.
+                </p>
+                <p class="learnmore" href="#">Learn more <i class="fa-solid fa-arrow-right"></i></p>
+
+            </div>
+
+            <div class="sections">
+                <i class="fa-solid fa-check"></i>
+                <h3 class="logo">Performance</h3>
+                <p class="logopara">Let your employees know their worth. Create cascaded goals aligned to business objectives.
+                </p>
+                <p class="learnmore" href="#">Learn more <i class="fa-solid fa-arrow-right"></i></p>
+
+            </div>
+
+            <div class="sections">
+                <i class="fa-solid fa-address-book"></i>
+                <h3 class="logo">Hiring & Onboarding</h3>
+                <p class="logopara">An integrated hiring platform for teams to collaborate with recruiters and hire good talent.
+                </p>
+                <p class="learnmore" href="#">Learn more <i class="fa-solid fa-arrow-right"></i></p>
+
+            </div>
+
+            <div class="sections">
+                <i class="fa-solid fa-file-excel"></i>
+                <h3 class="logo">Project timesheet</h3>
+                <p class="logopara">Track your employee time and maintain effective utilization to grow your services business.
+                </p>
+                <p class="learnmore" href="#">Learn more <i class="fa-solid fa-arrow-right"></i></p>
+
+            </div>
+
+            <div class="sections">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h3 class="logo">Time & Attendance</h3>
+                Automated Attendance and leave- unified with payroll. Remote, Biometric, and GPS Tracking.
+            </p>
+                <p class="learnmore" href="#">Learn more <i class="fa-solid fa-arrow-right"></i></p>
+
+            </div>
+        
+    </div>
+    </div>
+<div class="con">
+    <h1 class="hd">Hear it from 30,000 HR Leaders like YOU.</h1>
+<div class="main-con">
+    <div class="left-con">
+        <i class="fa-solid fa-circle-arrow-left"></i>
+
+        <div class="crd">
+        <img src="leader.jpeg" alt="">
+        <p class="zindex">Industry :<br>E-Commerce</p>
+        <p class="companies">Adda24/7</p>
+    </div>
+    <div class="crd crd2">
+        <img src="leader.jpeg" alt="">
+        <p class="zindex">Industry :<br>Retail</p>
+        <p class="companies">noise</p>
+    </div>
+    <div class="crd">
+        <img src="leader.jpeg" alt="">
+        <p class="zindex">Industry :<br>Real-Estate</p>
+        <p class="companies">Boult</p>
+    </div>
+    <i class="fa-solid fa-circle-arrow-right"></i>
+    </div>
+    <div class="right-con">
+        <p>Everything you need to<br> connect your  employees</p>
+        <button>Get Started</button>
+    </div>
+
+</div>
+<div class="namepostflex">
+<div class="personnamepost">
+    <p class="personname">Tom Stany</p>
+    <p class="post">Head HR</p>
+</div>
+
+<div class="personnamepost pt2">
+    <p class="personname">Tom Stany</p>
+    <p class="post">Head HR</p>
+</div>
+
+<div class="personnamepost pt3">
+    <p class="personname">Tom Stany</p>
+    <p class="post">Head HR</p>
+</div>
+</div>
+</div> 
+    
+<div class="section9">
+    <h2 class="sec9heading">Personalized HCM Software for YOUR <br>industry</h2>
+    <p class="sec9para">
+        You need someone that understands you. Check our tailored offerings for your industry. This is <br class="break">People Management - À la carte.
+      </p>
+      
+      <div class="mainservice">
+      <div class="services">
+        <i class="fa-brands fa-servicestack"></i>
+        <p class="servicename">Technology & <br>Services</p>
+        <pre class="servicenamepara">
+Powerful HCM software for 
+technology and white collar 
+services companies where 
+EX is essential.
+          </pre>
+          <p class="knowmore">Know More</p>
+      </div>
+
+      <div class="services">
+        <i class="fa-solid fa-stethoscope"></i>
+                <p class="servicename">Pharma & Manufacturing</p>
+        <pre class="servicenamepara">
+HR & Payroll for Pharma 
+and manufacturing companies.
+For both blue-collar and
+ white-collar employees.
+          </pre>
+          <p class="knowmore">Know More</p>
+      </div>
+
+      <div class="services">
+        <i class="fa-solid fa-money-check"></i>        <p class="servicename">Banks & Financial Services
+        </p>
+        <pre class="servicenamepara">
+Complete HCM and Payroll for 
+banks and financial 
+services where compliance 
+and audit processes are a must.
+          </pre>
+          <p class="knowmore">Know More</p>
+      </div>
+
+      <div class="services">
+        <i class="fa-brands fa-pied-piper"></i>       
+         <p class="servicename">Retail & Other Industries </p>
+        <pre class="servicenamepara">
+One central HR platform 
+for all retail stores.24x7 
+accessibility & updates 
+from anywhere on earth.
+          </pre>
+          <p class="knowmore">Know More</p>
+      </div>
+    </div>
+    
+</div>
+
+<div class="section10">
+    <h2 class="headingsec10">One HR app, embraced by <br>
+        2.5 Million Employees</h2>
+
+        <div class="bothcontainer">
+            <div class="leftsec10container">
+              <img src="kekaphonephoto.png" alt="keka app pic">
+            </div>
+
+            <div class="rightsec10container">
+                <div class="section10cards">
+                    <h3 class="sec10heading">Simplified leave & <br>
+                        attendance
+                    </h3>
+                    <p class="sec10para">
+                        Let employees clock in or take <br>
+                        leave- remotely, on field or in- <br>
+                        office. Embrace self- <br>
+                        accountability.
+                    </p>
+                </div>
+
+                <div class="section10cards">
+                    <h3 class="sec10heading">Tax and Expense<br>
+                        - in 2 Clicks
+                    </h3>
+                    <p class="sec10para">
+                        Let employees manage tax <br> declarations and proofs. File <br> and update expenses in 2 <br> clicks.
+                    </p>
+                </div>
+
+                <div class="section10cards">
+                    <h3 class="sec10heading">A Culture<br>
+                        of Recognition
+                    </h3>
+                    <p class="sec10para">
+                        Give and Receive Praises to <br> build a culture of recognition. <br> Take a moment to take it in
+                    </p>
+                </div>
+
+                <div class="section10cards">
+                    <h3 class="sec10heading">Approvals from<br>
+                        a single window</h3>
+                    <p class="sec10para">
+                        Enable managers to approve or <br> reject requests from a single <br> window
+                    </p>
+                </div>
+
+                <div class="section10cards">
+                    <h3 class="sec10heading">Adaptable to employee
+                        <br>
+                        preferences
+                    </h3>
+                    <p class="sec10para">
+                        Each employee can find their <br> preferred features on the main  <br>screen
+                    </p>
+                </div>
+
+                <div class="section10cards">
+                    <h3 class="sec10heading">Faster resolution of
+                        <br>
+                        employee issues
+                    </h3>
+                    <p class="sec10para">
+                        A reliable help-desk with <br> super-easy process for raising <br> and resolving issues
+                    </p>
+                </div>
+
+            </div>
+        </div>
+</div>
+
+<footer style="background-color: #383B43;">
+    <div class="footersection1">
+        
+        <div class="footsec1left">
+            <img src="KekaLogoWhite.png" alt="" class="kekaimgleft">
+            <p class="footsec1para">Keka is made for your people, by people like you,<br> who care for people in the organization
+            </p>
+
+            <div class="footsec1socialmedia">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-youtube"></i>
+            </div>
+            
+        </div>
+        <div class="footsec1right">
+            <img class="footerimgright" src="skyhigh.png" alt="qwertyuio">
+            <img class="footerimgright" src="soc.png" alt="">
+            <img class="footerimgright" src="gdpr.png" alt="">
+            <img class="footerimgright" src="iso.png" alt="">
+        </div>
+    </div>
+    <hr class="hr">
+    
+
+    <div class="footersection2">
+        <div class="footersec2cards">
+        <h3 class="footsec3heading">Core HR</h3>
+        <ul class="sec2ul">
+            <li><a href="">HR Softwares</a></li>
+            <li><a href="">ESS Portal</a></li>
+            <li><a href="">Employee Profiles</a></li>
+            <li><a href="">Documents</a></li>
+            <li><a href="">Helpdesk</a></li>    
+            <li><a href="">Pulse Surveys</a></li>
+            <li><a href="">HR Analytics</a></li>
+        </ul>
+    </div>
+
+    <div class="footersec2cards">
+        <h3 class="footsec3heading">Payroll</h3>
+        <ul class="sec2ul">
+            <li><a href="">Payroll Software</a></li>
+            <li><a href="">Compliance</a></li>
+            <li><a href="">Expense Management</a></li>
+            <li><a href="">Compensation</a></li>
+            <li><a href="">Loans & Advances</a></li>    
+            <li><a href="">Employee Finances</a></li>
+        </ul>
+    </div>
+
+    <div class="footersec2cards">
+        <h3 class="footsec3heading">Hiring & Onboarding</h3>
+        <ul class="sec2ul">
+            <li><a href="">Applicant Tracking System</a></li>
+            <li><a href="">Hiring Software</a></li>
+            <li><a href="">Offer Management</a></li>
+            <li><a href="">Employee Onboarding</a></li>
+        </ul>
+    </div>
+
+    <div class="footersec2cards">
+        <h3 class="footsec3heading">Company</h3>
+        <ul class="sec2ul">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Customer Stories</a></li>
+            <li><a href="">Partner with us</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Marketplace</a></li>    
+            <li><a href="">Security</a></li>
+            <li><a style="color:#FA3399; font-weight: bold;" href="">We are hiring!</a></li>
+        </ul>
+    </div>
+
+    <div class="footersec2cards">
+        <h3 class="footsec3heading">Time Attendance</h3>
+        <ul class="sec2ul">
+            <li><a href="">Attendance Management</a></li>
+            <li><a href="">Leave Management</a></li>
+            <li><a href="">GPS / Mobile Attendance</a></li>
+            <li><a href="">Shift Management</a></li>
+        </ul>
+    </div>
+
+    <div class="footersec2cards">
+        <h3 class="footsec3heading">Performance</h3>
+        <ul class="sec2ul">
+            <li><a href="">Performance Management</a></li>
+            <li><a href="">360 degree reviews</a></li>
+            <li><a href="">OKR Software</a></li>
+            <li><a href="">One on One Meeting</a></li>
+            <li><a href="">Continuous Feedback</a></li>   
+        </ul>
+    </div>
+
+    <div class="footersec2cards">
+        <h3 class="footsec3heading">PSA</h3>
+        <ul class="sec2ul">
+            <li><a href="">PSA Software</a></li>
+            <li><a href=""> SoftwareResource Managements</a></li>
+            <li><a href="">Project Management</a></li>
+            <li><a href="">Timesheet Software</a></li>
+            <li><a href="">Billing System</a></li>    
+            <li><a href="">Analytics</a></li>
+            <li><a href="">Opportunity Managements</a></li>
+        </ul>
+    </div>
+
+    <div class="footersec2cards">
+        <h3 class="footsec3heading">Contact</h3>
+        <ul class="sec2ul">
+            <li><a href="">Sales: <br>
+                +91 89292 08062
+                isales@keka.com</a></li>
+            <li><a href="">For Support: <br>
+                support@keka.com</a></li>
+            <li><a href=""> For Marketing: <br>
+                marketing@keka.com</a></li>
+            <li><a href="">12th & 14th Floor, Vasavi Sky City,<br>
+                Telecom Nagar, Gachibowli, <br>
+                Hyderabad, Telangana 500081</a></li>
+        </ul>
+    </div>
+</div>
+<hr class="hr">
+
+<div class="footersection3">
+    <div class="location">
+        <p class="places">Locations</p>
+    </div>
+
+    <div class="locations">
+        <p class="places">Portland <br> +1-540-503-4550
+        </p>
+         <p class="places2">Kolkata <br> +91 9281116365</p>   
+    </div>
+
+    <div class="locations">
+        <p class="places">Singapore <br> +65 6232 6961</p>
+         <p class="places2">Pune <br> +91 9346991504
+         </p>    
+    </div>
+
+    <div class="locations">
+         <p class="places">Bengaluru <br> +91 9000015743</p>
+    </div>
+
+    <div class="locations">
+        <p class="places">Hyderabad <br> +91 7654015743</p>
+   </div>
+
+   <div class="locations">
+    <p class="places">Mumbai <br> +91 9070015743</p>
+</div>
+
+<div class="locations">
+    <p class="places">Delhi <br> +91 9123457431</p>
+</div>
+
+<div class="locations">
+    <p class="places">Chennai <br> +91 998715743</p>
+</div>
+</div>
+      
+<hr style="margin-top:40px; background-color:black;"class="hr">
+
+<div class="last">
+    <div class="lastheadingleft">2024 Keka Technologies Private Limited All rights reserved </div>
+    <div class="s">
+        <ul class="lastthings">
+            <li>Terms of Service</li>
+            <li>privacy policy</li>
+            <li>Security policy</li>
+            <li>GDPR Compliance</li>
+        </ul>
+    </div>
+</div>
+
+</footer>
+
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector('.nav-menu ul');
+        menu.classList.toggle('active');
+    }
+
+
+    function toggleDropdown(event) {
+        event.preventDefault(); // Prevent default anchor click behavior
+        const dropdownContent = event.target.nextElementSibling;
+
+        // Close any other open dropdowns
+        const allDropdowns = document.querySelectorAll('.dropdown-content');
+        allDropdowns.forEach((dropdown) => {
+            if (dropdown !== dropdownContent) {
+                dropdown.style.display = 'none';
+            }
+        });
+
+        // Toggle current dropdown
+        dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+    }
+</script>
+
+
+</body>
+</html>
